@@ -1,14 +1,23 @@
-//git init
 
 
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin URL
 
-//git add .
-//git commit -m "first commit"
-//git branch -M main
-//git remote add origin URL
+//----------------*****************-----------------------//
 
-//if merge then 
-//git pull origin main or git pull origin main --rebase
+//To pull request
+fork other's repository
 
+git clone <other's repository url>
 
-//git push -u origin main
+//do changes
+
+now fork repository in your github 
+
+git switch -c "<new brnch name>"
+git add .
+git commit -m "<name of commit>"
+git push -u origin "<new brnch name">
