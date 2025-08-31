@@ -17,7 +17,7 @@ git clone <other's repository url>
 
 now fork repository in your github 
 
-git switch -c "<new brnch name>"
+git switch -c "<name_of_branch>"
 git add .
-git commit -m "<name of commit>"
-git push -u origin "<new brnch name">
+git commit -m "<name_of_commit>"
+git push -u origin "<name_of_branch>"
